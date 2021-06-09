@@ -21,11 +21,15 @@
   </head>
   <body>
     <!-- exercise 1 -->
-    <div class="container flow">
+    <div class="container-top">
       <div class="row">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
+        <div class="col-6"><p> Reiciendis ad qui porro dolore temporibus animi facere, id sunt, minima expedita iure voluptatibus saepe laboriosam!</p></div>
+        <div class="col-3"><p> Reiciendis ad qui porro dolore temporibus animi facere, id sunt, minima expedita iure voluptatibus saepe laboriosam!</p></div>
+        <div class="col-3">
+            <div><p> Reiciendis ad qui porro dolore temporibus animi facere, id sunt, minima expedita iure voluptatibus saepe laboriosam!</p></div>
+            <div><p> Reiciendis ad qui porro dolore temporibus animi facere, id sunt, minima expedita iure voluptatibus saepe laboriosam!</p></div>
+            <div><p> Reiciendis ad qui porro dolore temporibus animi facere, id sunt, minima expedita iure voluptatibus saepe laboriosam!</p></div>
+        </div>
       </div>
     </div>
 
@@ -49,7 +53,7 @@
         </div>
         <div class="col">
           <div class="card" style="width: 18rem">
-            <div class="card-header">Free</div>
+            <div class="card-header">Pro</div>
             <ul class="list-unstyled">
                 <ul >
                     <li class="list-unstyled" >An item</li>
@@ -64,7 +68,7 @@
         </div>
         <div class="col">
           <div class="card" style="width: 18rem">
-            <div class="card-header">Free</div>
+            <div class="card-header">Enterprize</div>
             <ul class="list-unstyled">
                 <ul >
                     <li class="list-unstyled" >An item</li>
@@ -83,8 +87,8 @@
     <!-- exercise 3 -->
 
     <div class="video-container mt-5">
-      <div class="row no-gutters">
-        <div class="col-4">
+      <div class="row ">
+        <div class="col-4 ">
           <div class="card" style="width: 18rem">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
@@ -93,6 +97,8 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
+              <button>View</button>
+              <button>Edit</button>
             </div>
           </div>
         </div>
@@ -215,12 +221,13 @@
 
     <!-- Blog-cards -->
 
-    <main role="main" class="container">
+    <main role="main" class="container mt-5" >
       <div class="row">
         <div class="col-md-8 blog-main">
+          <div><h1>Page Heading</h1></div>
           <div class="card">
             <img
-              src="..."
+              src="media1.jpg"
               class="card-img-top"
               alt="..."
               style="width: 730px; height: 300px"
@@ -240,7 +247,7 @@
 
           <div class="card">
             <img
-              src="..."
+              src="media1.jpg"
               class="card-img-top"
               alt="..."
               style="width: 730px; height: 300px"
@@ -261,7 +268,7 @@
           </div>
           <div class="card">
             <img
-              src="..."
+              src="media1.jpg"
               class="card-img-top"
               alt="..."
               style="width: 730px; height: 300px"
@@ -282,7 +289,7 @@
 
         <aside class="col-md-4 blog-sidebar">
           <div class="card">
-            <div class="card-header">Featured</div>
+            <div class="card-header"><h4>Find in my blog</h4></div>
             <div class="card-body">
               <input
                 class="search-input"
@@ -290,35 +297,42 @@
                 value=""
                 placeholder="search for...."
               />
+              <button>search</button>
             </div>
           </div>
 
           <div class="card">
-            <div class="card-header">Featured</div>
+            <div class="card-header"><h4>categories</h4></div>
             <div class="row">
-              <div class="col-4 card-body">
-                <div class="col-4">1</div>
-                <div class="col-4">1</div>
-                <div class="col-4">1</div>
-                <div class="col-4">1</div>
-                <div class="col-4">1</div>
-                <div class="col-4">1</div>
+              <div class="col-6">
+                <div><a href="#">Web Design</a></div>
+                <div><a href="#">Html</a></div>
+                <div><a href="#">Css</a></div>
+              </div>
+              <div class="col-6">
+                  <div><a href="#">Javascript</a></div>
+                  <div><a href="#">Sass</a></div>
+                  <div><a href="#">Bootstrap4</a></div>
+                </div>
               </div>
             </div>
-          </div>
+         
 
           <div class="card">
-            <div class="card-header">Featured</div>
+            <div class="card-header"><h4>Widgets</h4></div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              
             </div>
           </div>
         </aside>
+        <div class="button">
+          <button>older</button>
+          <button>newer</button></div>
       </div>
     </main>
 
